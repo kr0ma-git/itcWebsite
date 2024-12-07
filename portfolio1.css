@@ -100,6 +100,88 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    flex-direction: column;
+}
+
+.content  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vw;
+    text-align: center;
+}
+
+.content span h1 {
+    display: inline-block;
+    align-items: center;
+    word-spacing: 10px;
+    text-align: center;
+    margin: 0 7vw;
+    padding-bottom: 2vw;
+    max-width: 80%;
+    user-select: none;
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -2px 20px #aaaaaa, -4px -4px 0 #1d2020, 6px 6px 0 #a8ccd4;
+}
+
+.content-container {
+    margin: 0 auto;
+    padding: 1.2vw 5vw;
+    max-width: 80%;
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+}
+
+.content-container ul span {
+    color: rgb(139, 57, 25);
+}
+
+.content-container ul li {
+    margin: 1.2vw 0;
+    line-height: 1.5;
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+.content-container ul li ul {
+    margin: 1.2vw auto;
+    padding: 0.7vw 2vw;
+    max-width: 50%;
+    font-weight: 500;
+    border: 3px solid rgba(190, 119, 119, 0.5); 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.6); 
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+}
+
+.content-container ul li ul li {
+    font-size: 1.3vw;
+    margin: 5px 0; 
+}
+
+.content-container hr {
+    height: 5px;
+    background: rgba(139, 135, 135, 0.5); 
+    margin: 4vw 1.5vw 2.5vw; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -2px -2px 10px rgba(255, 255, 255, 0.6);
+}
+
+.content-container h1 {
+    font-size: 2.2vw;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, .3);
+}
+
+.content-container span {
+    color: rgb(139, 57, 25);
 }
 
 .slider {
